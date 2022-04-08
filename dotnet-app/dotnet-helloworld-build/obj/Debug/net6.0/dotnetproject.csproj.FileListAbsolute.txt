@@ -1,0 +1,16 @@
+/home/harryji/test/dotnetproject/bin/Debug/net6.0/dotnetproject
+/home/harryji/test/dotnetproject/bin/Debug/net6.0/dotnetproject.deps.json
+/home/harryji/test/dotnetproject/bin/Debug/net6.0/dotnetproject.runtimeconfig.json
+/home/harryji/test/dotnetproject/bin/Debug/net6.0/dotnetproject.dll
+/home/harryji/test/dotnetproject/bin/Debug/net6.0/ref/dotnetproject.dll
+/home/harryji/test/dotnetproject/bin/Debug/net6.0/dotnetproject.pdb
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.csproj.AssemblyReference.cache
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.GeneratedMSBuildEditorConfig.editorconfig
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.AssemblyInfoInputs.cache
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.AssemblyInfo.cs
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.csproj.CoreCompileInputs.cache
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.dll
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/ref/dotnetproject.dll
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.pdb
+/home/harryji/test/dotnetproject/obj/Debug/net6.0/dotnetproject.genruntimeconfig.cache
+/home/harryji/10-web-apps/dotnet-app/dotnet-helloworld-build/obj/Debug/net6.0/dotnetproject.pdb

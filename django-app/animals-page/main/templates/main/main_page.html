@@ -1,0 +1,47 @@
+{% extends "main/base.html" %}
+{% load thumbnail %}
+{% block title %} Encyclopedia {% endblock title %}
+
+{% block header %} Animals Encyclopedia {% endblock header %}
+
+{% block nav-bar %}
+    <li class="breadcrumb-item">Main</li>
+{% endblock nav-bar %}
+
+{% block content-left %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Number of animals</th>
+            <th>last updated</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for type in types %}
+        <tr>
+            <td class="row">
+                <a href="{% url 'main:about_type' type.name %}">
+                <div class="col-sm-3">
+                {% thumbnail type.image "60x60" crop="center" as im %}
+                    <img src="{{im.url}}" alt="{{type.name}}" class="circle">
+                {% endthumbnail %}
+                </div>
+                <div class="col-sm-8">
+                    {{type.name|capfirst}}<br></a>
+                    <div class="description">
+                        <span class="text-muted">{{type.description}}</span>
+                    </div>
+                </div>
+            </td>
+            <td class="align-middle">
+                {{type.my_animals.count}}
+            </td>
+            <td>
+                {{ type.latest_update|date:'d N Y, G:i'|default:'-' }}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock content-left %}

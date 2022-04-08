@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v6.0": []
+  },
+  "packageFolders": {
+    "/home/harryji/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/harryji/10-web-apps/dotnet-app/dotnet-helloworld-build/dotnetproject.csproj",
+      "projectName": "dotnetproject",
+      "projectPath": "/home/harryji/10-web-apps/dotnet-app/dotnet-helloworld-build/dotnetproject.csproj",
+      "packagesPath": "/home/harryji/.nuget/packages/",
+      "outputPath": "/home/harryji/10-web-apps/dotnet-app/dotnet-helloworld-build/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/harryji/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.417/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

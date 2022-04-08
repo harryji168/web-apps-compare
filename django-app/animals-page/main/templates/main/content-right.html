@@ -1,0 +1,9 @@
+<h4>Last added animals:</h4>
+<ul>
+{% for animal in last_animals %}
+    <li class="list-unstyled">
+        <a href="{% url 'main:about_animal' animal.name %}">{{ animal.name}}</a> <br>
+        <small>{{ animal.pub_date|date:'d F Y, G:i' }}</small>
+    </li>
+{% endfor %}
+</ul>
